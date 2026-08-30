@@ -66,3 +66,5 @@ pids
 *.pid
 *.seed
 *.pid.lock
+
+deploy-commit.sh
