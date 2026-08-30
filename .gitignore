@@ -53,6 +53,10 @@ contract/out/
 contract/broadcast/
 contract/.gitmodules
 
+# Not part of repo (kept locally only)
+ARCHITECTURE.md
+docker-compose.yml
+
 # Misc
 *.pem
 .vercel
