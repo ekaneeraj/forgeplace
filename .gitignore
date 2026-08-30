@@ -47,6 +47,12 @@ coverage/
 *.sln
 *.sw?
 
+# Foundry / smart contracts (Rust)
+contract/cache/
+contract/out/
+contract/broadcast/
+contract/.gitmodules
+
 # Misc
 *.pem
 .vercel

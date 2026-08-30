@@ -5,13 +5,16 @@
   "packageManager": "bun@1.2.21",
   "workspaces": [
     "ui",
-    "api",
-    "contract"
+    "api"
   ],
   "scripts": {
-    "dev": "bun run --filter '*' dev",
-    "build": "bun run --filter '*' build",
-    "lint": "bun run --filter '*' lint",
-    "test": "bun run --filter '*' test"
+    "dev": "bun run --filter ui dev",
+    "dev:api": "bun run --filter api start:dev",
+    "build": "bun run --filter api build",
+    "build:ui": "bun run --filter ui build",
+    "lint": "bun run --filter api lint",
+    "lint:ui": "bun run --filter ui lint",
+    "test": "bun run --filter api test",
+    "test:ui": "bun run --filter ui test"
   }
 }
