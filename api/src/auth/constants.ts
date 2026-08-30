@@ -1,0 +1,2 @@
+export const SIGNATURE_MESSAGE =
+  'Hello, \nForgePlace uses a cryptographic signature to \nauthenticate your wallet address and will never \nrequest access to your funds. The signature request \nis a gas-free transaction.';

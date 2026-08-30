@@ -1,0 +1,17 @@
+{
+  "name": "forgeplace",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "bun@1.2.21",
+  "workspaces": [
+    "ui",
+    "api",
+    "contract"
+  ],
+  "scripts": {
+    "dev": "bun run --filter '*' dev",
+    "build": "bun run --filter '*' build",
+    "lint": "bun run --filter '*' lint",
+    "test": "bun run --filter '*' test"
+  }
+}

@@ -1,0 +1,25 @@
+# Git
+.git
+.gitignore
+
+# Build output
+dist
+*.tsbuildinfo
+
+# Dependencies (installed inside the container)
+node_modules
+
+# Environment (secrets injected at runtime via docker run --env)
+.env
+.env.*
+
+# Tests & coverage
+coverage
+test
+
+# Docs
+README.md
+ARCHITECTURE.md
+
+# OS
+.DS_Store
